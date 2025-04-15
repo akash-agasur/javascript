@@ -45,12 +45,12 @@
 
 //1-3+3-5+5-7+7-9+9-11
 
-// let num = Number(prompt("Enter a number "));
-// let sum = 0;
-// let sub = 0;
-// for (let i = 1; i <= num; i += 2) {
-//   sub = i - (i + 2);
-//   sum = sum + sub;
-//   console.log("sub val is:", sub);
-//   console.log("sum val is", sum);
-// }
+let num = Number(prompt("Enter a number "));
+let sum = 0;
+let sub = 0;
+for (let i = 1; i <= num; i += 2) {
+  sub = i - (i + 2);
+  sum = sum + sub;
+  console.log("sub val is:", sub);
+  console.log("sum val is", sum);
+}
