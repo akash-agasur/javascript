@@ -1,182 +1,99 @@
-// // step1
-// let num = Number(prompt("Enter a first number "));
-// let num1 = Number(prompt("Enter a second number"));
+// ------------WRITE A PROGRAM THAT CHECKS IF A NUMBER IS ODD OR EVEN -------------
 
-// // step2
-// let average = (num+num1)/2
-//   console.log('the average is ',average);
-//     // step3
-// if(num>average){  
-//     // step4
-//       let temp=num;
-//       num=num1;
-//       num=temp;
-//       console.log('if statement:', num,num1);
-      
+// let num = 9
+// if(num%2==0){
+//     console.log(num,"even number");
 // }
-// // step5
 // else{
-//     console.log('else statement:',num,num1);
-    
+//     console.log(num,"odd number");
 // }
 
+// ---------------CREATE A FUNCTIONM THAT CHECKS DRIVING LICENSE ELIGIBILTY BASED ON AGE ---------
+// let age = 28;
+// let hasLicense = true;
+// let notdrunk = true;
+// if (age >= 18 && hasLicense && notdrunk) {
+//   console.log("Can drive");
+// }
+// else{
+//     console.log("cannot drive");
+// }
 
-// //step1:
+// -------------TAKE TWO INPUT NUMBERS ,CALCULATE THEIR RATIO ,AND IF THE FIRST IS GREATER SWAP THEM -----
+
+// //step1
+// let num1= Number(prompt("take 1 input from the user"))
+// let num2= Number(prompt("take  2 input from the user"))
+
+// //step2
+// let average=(num1 + num2)/2
+// console.log('The average is',average);
+
+// //step3
+// if(num1>average){
+//     let temp=num1
+//     num1=num2
+//     num2=temp
+//     console.log('if statment',num1,num2);
+// }
+// else{
+//     console.log('else statment',num1,num2);
+
+// }
+
+// -------FIND THE RATIO OF TWO FLOATING POINT NUMBERS.IF RATIO > 0,SWAP THEIR VALUES.
+
+
+// -------CHECK IF TWO INTEGERS ARE EQUAL .
+
+
+// ----------DETERMINE WHETHER A NUMBER IS POSITIVE OR NEGATIVE.
+
+//  let num = 2
+// if(num>=0){
+//     console.log("positive");
+// }
+// else{
+//     console.log("negative");
+// }
+
+// ------WRITE A PROGRAM TO CHECK IF A PERSON IS ELIGIBLE TO VOTE BASED ON AGE.
+
+// let num = 19
+// if(num>18){
+//     console.log(" The person is eligible");
+// }
+// else{
+//     console.log("The person is Not-eligible");
+// }
+
+// ------PRINT 'YES'IF THE INPUT CHARACTER IS 'Y' OR'y' OTHERWISE PRINT 'NO'.
+
+
+// -------CHECK IF A NUMBER IS DIVISBLE BY 5.
+
+
+// -------DETERMINE IF NUMBER IS DIVISBLE BY BOTH 2 AND 3
+
+// let num = prompt("enter a number")
+// if(num%3==0 && num%5==0 ){
+//     console.log("Number is divisble by 3");
+
+
+// ---------CHECK IF A GIVEN YEAR IS A LEAP YEAR 
 // let year = Number (prompt("enter the year"))
 
-// // step2:
+
 // if (year%4==0 && year%100!= 0 || year%400==0){
 //     console.log('leap year');
-    
+
 // }
-// // step3:
 
-//  else if (year%400==0){
-//     console.log('centurey year is a leap year');
-    
-//  }
-
-// // step4:
 // else{
 //     console.log('year is not a leap year');
-    
-// }
-                                                                  //QUESTION : 1
 
-// // step1:
-// let temperature = Number(prompt("Enter the Temperature"))
-    
-// // step2:
-
-// if (temperature < 0) {
-//   console.log("very cold");
-// }
-// // step3:
-
-// else if (temperature < 16) {
-//   console.log("Cold outside");
-// }
-// // step4:
-
-// else if (temperature < 25) {
-//   console.log("Wheather is ok");
-// } 
-// // step5:
-
-// else if (temperature < 35) {
-//   console.log("lets go for swim");
-// } 
-// // step6:
-
-// else if (temperature < 45) {
-//   console.log("turn on ac");
-// }
-// // step7:
-
-// else {
-//   console.log("too hot");
 // }
 
-
-                                                          //QUESTION : 2
-// //step:1
-// let unit =  Number (prompt('Enter the Meter number'))
-
-// //step:2
-// if (unit>0 && unit <=100){
-//     console.log('unit consumed rate 0.80');
-    
-// }
-
-// //step:3
-// else if (unit>= 100 && unit <=200){
-//     console.log('unit consumed rate 1.2');
-    
-// }
-
-// //step:4
-// else if (unit>= 200 && unit <=300){
-//     console.log('unit consumed rate 1.5');
-    
-// }
-
-// //step:5
-// else if (unit >=300){
-//     console.log('unit consumed rate 1.8');
-    
-// }
-
-// //step:6
-// else{
-//     console.log('no consumed rate');
-    
-// }
+// ----------SUM THREE INTEGERS ARE VERIFY  IF THE RESULT LIES BETWEEN 100 AND 200.
 
 
-
-
-                                                        //QUESTION : 3
-// // STEP:1
-// let num1 = Number (prompt("enter first sub marks"))
-// let num2 = Number (prompt("enter second sub marks"))
-// let num3 = Number(prompt("enter third sub marks"));
-
-// // STEP:2:
-// let average = (num1+num2+num3) /3
-// console.log('The avrage is', average);
-
-
-// // STEP3:
-// if (average >=35 && average <=50){
-//     console.log('third division');
-    
-// }
-
-
-// //STEP:4
-//  else if (average >=50 && average <= 60) {
-//   console.log("second division");
-// }
-
-
-// //STEP:5
-//  else if (average >= 60 && average <= 70) {
-//   console.log("first division");
-// }
-
-
-// //STEP:6
-//  else if (average >=70) {
-//   console.log("Distinction");
-// }
-
-
-// //STEP:7
-// else{
-//     console.log("fail");
-    
-// }
-
-                                                  //QUESTION : 5
-// STEP:1
-let rate = Number (prompt("enter the rate"))
-let quantity = Number (prompt("enter the quantity"))
-// STEP:2
-let total = (rate*quantity)
-    console.log('total amount is:',total);
-//STEP:3
-    if (total >= 100 && total <= 500) {
-      console.log("a key ring");
-    }
-//STEP:4
-    else if (total >= 500 && total <= 1000) {
-      console.log("a leather purse");
-    }
-//STEP:5
-    else if (total >= 1000) {
-      console.log("a pocket calculator");
-    }
-//STEP:6
-    else {
-      console.log("KYA REH BHEK MANGYA  ");
-    }
