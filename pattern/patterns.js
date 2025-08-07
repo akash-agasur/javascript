@@ -29,6 +29,77 @@
 // }
 
 
+// Question 16:
+// *****
+//  ****
+//   ***
+//    **
+//     *
+
+
+// for (let i = 5; i >= 1; i--) {
+//   let spaces = " ".repeat(5-i);
+//   let stars = "* ".repeat(i); // repeat stars with space, then trim end
+//   console.log(spaces + stars);
+// }
+
+
+
+// Question 19:
+//     A
+//    AB
+//   ABC
+//  ABCD
+// ABCDE
+
+// for (let i = 1; i <= 5; i++) {
+//   for (let k = 5; k > i; k--) {
+//     process.stdout.write(" ");
+//   }
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(String.fromCharCode(64 + j));   }
+//   console.log();
+// }
+
+// Question 22:
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * *
+//  * * * *
+//   * * *
+//    * *
+//     *
+
+
+// // Top half including the middle line
+// for (let i = 1; i <= 5; i++) {
+//   // Print spaces
+//   for (let space = 1; space <= 5 - i; space++) {
+//     process.stdout.write(" ");
+//   }
+//   // Print numbers from 1 to i
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(j + " ");
+//   }
+//   process.stdout.write("\n");
+// }
+
+// // Bottom half
+// for (let i = 4; i >= 1; i--) {
+//   // Print spaces
+//   for (let space = 1; space <= 5 - i; space++) {
+//     process.stdout.write(" ");
+//   }
+//   // Print numbers from 1 to i
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(j + " ");
+//   }
+//   process.stdout.write("\n");
+// }
+
+
 // Question 25:
 // 1
 // 1 0
