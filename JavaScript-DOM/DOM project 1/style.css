@@ -93,8 +93,6 @@ header  {
         margin-bottom: 2rem;
 }
 
-
-
  .line{
     height: 1px;
     width: 80%;
@@ -115,11 +113,18 @@ main{
     border-radius: 20px;
     padding-left: 14rem;
 }
-.imgmain{
+.imgmain1,.imgmain2, .imgmain3, .imgmain4{
+    margin-bottom: .6rem;
     border-radius: 15px;
+    cursor: pointer;
 }
- .minimg .img1, .img2,.img3,.img4{
+.imgmain2, .imgmain3, .imgmain4{
+    display: none;
+}
+
+.img1, .img2,.img3,.img4{
     border-radius: 10px;
+    cursor: pointer;
 }
 .content{
     padding-top: 4.5rem;
@@ -235,4 +240,12 @@ button .cart1{
       width: 200px;
       margin: 10px;
       cursor: pointer;
+    }
+    .mainmodal{
+        display: none;   
+        background-color: brown;
+    }
+
+    .modal{
+        display: none;
     }
