@@ -38,6 +38,9 @@ header  {
     align-items: center;
     gap: 50px;
 }
+.menubar{
+  display: none;
+}
 .logo{
      height: 100%;
     width: 40%;
@@ -126,6 +129,11 @@ main{
     border-radius: 10px;
     cursor: pointer;
 }
+.minimg{
+  display: flex;
+  gap: 4px;
+  margin-top: -5px;
+}
 .content{
     padding-top: 4.5rem;
     padding-left: 5rem;
@@ -148,6 +156,10 @@ main{
     font-family: var(--Kumbh-Sans);
 
 }
+.amount{
+  display: flex;
+  flex-direction: column;
+}
 .content .price{
     width: 35%;
     display: flex;
@@ -155,7 +167,7 @@ main{
     justify-content: space-between;
     color: var(--Very-dark-blue);
 }
-.price .offer{
+.discount .offer{
       text-decoration: line-through;
   color: #6B7280; /* Tailwind Gray-500 */
   font-size: 1rem; /* or use exact pixel size */
@@ -249,3 +261,158 @@ button .cart1{
     .modal{
         display: none;
     }
+
+
+
+    @media screen and (max-width: 375px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .detail,.logo {
+    padding: 0;
+    width: auto;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .photos {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menubar{
+    display: block;
+  }
+.menu1,.menu2,.menu3,.menu4,.menu5{
+  display: none;
+}
+  .imgmain1, .imgmain2, .imgmain3, .imgmain4 {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .imgmain2, .imgmain3, .imgmain4 {
+    display: none;
+  }
+
+  .minimg{
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .content h2 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+  }
+  .amount{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content .price {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .price{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content .price p {
+    padding: 2px 8px;
+    font-size: 0.9rem;
+  }
+
+  .price .offer {
+    font-size: 0.9rem;
+  }
+
+  .incre {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .count {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px 0;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  button .cart1 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .cart-dropdown {
+    width: 250px;
+    height: 150px;
+    /* width: 300px; */
+    right: 9%;
+    /* left: 40%; */
+    top: 50px;
+  }
+
+  .cart-dropdown p {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  #popup img {
+    max-width: 95%;
+  }
+
+  #popup button {
+    font-size: 24px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .line {
+    width: 90%;
+    margin: 0 auto 1rem auto;
+  }
+
+  .thumbnail {
+    width: 100px;
+  }
+}

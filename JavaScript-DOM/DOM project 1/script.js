@@ -9,11 +9,20 @@ let mainImage1 = document.querySelector(".imgmain1");
 let mainImage2 = document.querySelector(".imgmain2");
 let mainImage3 = document.querySelector(".imgmain3");
 let mainImage4 = document.querySelector(".imgmain4");
-let mainmodal = document.querySelector("mainmodal");
-let modal1 = document.querySelector("modal1");
-let modal2 = document.querySelector("modal2");
-let modal3 = document.querySelector("modal3");
-let modal4 = document.querySelector("modal4");
+// let mainmodal = document.querySelector("mainmodal");
+// let modal1 = document.querySelector("modal1");
+// let modal2 = document.querySelector("modal2");
+// let modal3 = document.querySelector("modal3");
+// let modal4 = document.querySelector("modal4");
+let menubar = document.querySelector(".menubar");
+let menu1 = document.querySelector(".menu1");
+let menu2 = document.querySelector(".menu2");
+let menu3 = document.querySelector(".menu3");
+let menu4 = document.querySelector(".menu4");
+let menu5 = document.querySelector(".menu5");
+
+
+
 
 
 let count = 0;
@@ -104,3 +113,13 @@ modal1.style.display = "none";
 
 
 })
+menubar.addEventListener("click",() =>{
+  menu1.style.display="block";
+  menu2.style.display = "block";
+  menu3.style.display = "block";
+  menu4.style.display = "block";
+  menu5.style.display = "block";
+
+} )
+
+
