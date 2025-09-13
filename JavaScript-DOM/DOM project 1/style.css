@@ -384,19 +384,21 @@ button .cart1{
   }
 
   .cart-dropdown {
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     /* width: 300px; */
-    right: 9%;
+    /* right: 9%; */
     /* left: 40%; */
-    top: 50px;
+    /* top: 50px; */
   }
 
   .cart-dropdown p {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
   }
-
+.cart-dropdown button{
+  width: 80%;
+}
   #popup img {
     max-width: 95%;
   }

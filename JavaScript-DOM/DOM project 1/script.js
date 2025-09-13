@@ -58,7 +58,7 @@ let shoe = document.querySelector(".imgmain");
 let product = {
   name: "Fall Limited Edition Sneakers",
   price: 125,
-  quantity: 5,
+  quantity:0,
 };
 
 cartbtn.addEventListener("click", function () {
