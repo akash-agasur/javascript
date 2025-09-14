@@ -57,17 +57,29 @@ header  {
   display: inline-block;
   cursor: pointer;
 }
-
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: rgb(218, 112, 51);
+  color: white;
+  border-radius: 40%;
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  
+}
 .cart-dropdown {
   display: none;
   position: absolute;
-  top: 40px; /* adjust based on icon size */
+  top: 40px; 
   right: 0;
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  height: 300px;
   width: 250px;
-  /* padding: 16px; */
   z-index: 1000; 
 }
 .cart-dropdown .line1{
