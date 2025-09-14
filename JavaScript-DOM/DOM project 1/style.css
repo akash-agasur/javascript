@@ -272,6 +272,14 @@ button .cart1{
     padding: 1rem;
     height: auto;
   }
+  span{
+    display: flex;
+    /* margin-left: -100px; */
+    /* margin-top: 10rem; */
+    /* flex-direction: row; */
+    /* height: 100px; */
+    background-color: orange;
+  }
 
   .detail,.logo {
     padding: 0;
